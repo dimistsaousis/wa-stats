@@ -18,7 +18,7 @@ ACTIONS = [
 
 @dataclass
 class Message:
-    date: datetime
+    timestamp: datetime
     user: str
     message: str
     auto: bool
